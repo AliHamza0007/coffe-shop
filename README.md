@@ -11,8 +11,5 @@
 <img src="./ShowCase/7.png"  width="23%" height="300px"  />
 <img src="./ShowCase/8.png"  width="23%" height="300px"  />
 <img src="./ShowCase/9.png"  width="23%" height="300px"  />
-<img src="./ShowCase/10.png"  width="23%" height="300px"  />
-<img src="./ShowCase/11.png"  width="23%" height="300px"  />
-<img src="./ShowCase/12.png"  width="23%" height="300px"  />
 
 </div>
