@@ -1,0 +1,77 @@
+.navbar-toggler {
+  color: var(--brown-normal) !important;
+}
+.navbar-toggler:hover {
+  border: 0;
+  color: #ffee10 !important;
+  cursor: pointer;
+  text-shadow: 0 0 5px #ffee10;
+}
+
+.navbar-brand-logo {
+  position: absolute;
+  bottom: -80px;
+  z-index: 9999;
+}
+.navbar-brand > p:hover {
+  border: 0;
+  color: #ffee10 !important;
+  cursor: pointer;
+  text-shadow: 0 0 5px #ffee10;
+}
+
+.navbar-brand > img {
+  border: 8px solid var(--brown-dark) !important;
+}
+
+.navbar-normal .navbar-nav .nav-link {
+  font-size: 30px;
+  width: 200px;
+  color: var(--brown-dark) !important;
+}
+
+.navbar-normal .navbar-nav .nav-link:hover,
+.navbar-normal .navbar-nav .nav-link:active {
+  font-weight: 800;
+
+  border: 0;
+  color: #ffee10 !important;
+  cursor: pointer;
+  text-shadow: 0 0 5px #ffee10;
+}
+.navbarScroll {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.hide-nav-com {
+  opacity: 0;
+  visibility: hidden;
+  display: inline;
+  transition: opacity 1s ease-in, visibility 1s ease-in, display 2s ease-in;
+}
+
+.show-nav-com {
+  opacity: 1;
+  visibility: visible;
+  display: block;
+  transition: opacity 1s ease-in, visibility 2s ease-in, display 2s ease-in;
+}
+
+@media screen and (max-width: 1400px) {
+  .navbar-normal .navbar-nav .nav-link {
+    width: 180px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .navbar-normal .navbar-nav .nav-link {
+    width: 140px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .navbar-normal .navbar-nav .nav-link {
+    width: 140px;
+    font-size: 20px;
+  }
+}
